@@ -1098,3 +1098,106 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+#featured_container a:link h2 span, #featured_container a:visited h2 span {
+    background: #252775;
+    transition: background 2s ease-out;
+}
+#featured_container h2 span {
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 768px) {
+    #featured_container h2 {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 480px) {
+    #featured_container h2 {
+        font-size: 3rem;
+    }
+}
+#featured_container h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 30px;
+    border-bottom: 2px solid #fff;
+    font-size: 2rem;
+}
+#block-lpnu-main-menu, .region-sidebar-second, .logo, .page-header, #hero, #block-lpnushortcutstop4, #featured_container h2, #events_container, .news_teaser, .block-views-blockfront-page-news-block-3 h2, .paragraph--type--person-with-description .field--name-field-person-name, .view-header h1 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+user agent stylesheet
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#featured_container a:link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 3s ease-out;
+}
+a:link {
+    color: #0076A8;
+    text-decoration: none;
+    transition: color 0.5s ease-out;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.fontyourface {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    font-size: 1.6rem;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
