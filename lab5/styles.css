@@ -182,3 +182,8 @@ p:last-child {
     height: 2px;
     background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0%, #979797), color-stop(50%, #C2C2C2), color-stop(100%, #979797));
 }
+
+#featured_container a:hover h2 span, #featured_container a:active h2 span {
+    background: #00A1E4;
+    transition: background 2s ease-out;
+}
