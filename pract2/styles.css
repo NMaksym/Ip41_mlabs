@@ -53,25 +53,58 @@ nav .login {
 }
 
 .hero {
-    background-color: #F7F5FD;
-    padding: 50px;
+    background-color: #F8F8FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    gap: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.hero-content {
+    max-width: 480px;
 }
 
 .hero h2 {
-    font-size: 80px;
-    color: #2D2D2D;
+    font-size: 64px;
+    font-weight: 800;
+    color: #222222;
+    line-height: 1.1;
+    margin: 0 0 24px 0;
 }
 
-.hero img {
-    width: 300px;
-    float: right;
+.hero p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.5;
+    margin: 0 0 32px 0;
 }
 
 .hero .getstarted {
-    background-color: #F8D57E;
+    display: inline-block;
+    background-color: #F6D378;
     color: #2D2D2D;
-    padding: 6px 22px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 36px;
     border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    margin-top: 24px;
+}
+
+.hero-image {
+    flex-shrink: 0;
+}
+
+.hero img {
+    width: 520px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+    display: block;
 }
 
 .video {
@@ -84,4 +117,158 @@ nav .login {
 
 .video img {
     width: 600px;
+}
+
+.complogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px 80px;
+}
+
+.complogos img {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 80px;
+}
+
+.features > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.features img {
+    height: 55px;
+    width: auto;
+    margin-bottom: 24px;
+}
+
+.features h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    margin: 0 0 14px 0;
+}
+
+.features p {
+    font-size: 15px;
+    color: #888888;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 220px;
+}
+
+.testimonial-section {
+    background-color: #EBE8FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.testimonial-card {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    max-width: 750px;
+    width: 100%;
+    padding: 0 50px 0 0;
+    border-radius: 0;
+    border: 1px solid #000000;
+    overflow: hidden;
+}
+
+.avatar-wrapper {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 300px;
+    height: 370px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #CCCCCC;
+    display: block;
+}
+
+.testimonial-content {
+    padding: 40px 0 40px 40px;
+}
+
+.quote-mark {
+    font-size: 70px;
+    line-height: 1;
+    font-family: Georgia, serif;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+.quote-text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #222222;
+    margin: 0 0 24px 0;
+    max-width: 480px;
+}
+
+.author-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #999999;
+    margin: 0;
+}
+
+.CTA {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    gap: 40px;
+    background-color: #FCFAF5;
+}
+
+.CTA .getstarted {
+    display: inline-block;
+    background-color: #F6D378;
+    color: #2D2D2D;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 36px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    margin-top: 24px;
+}
+
+.CTA h2 {
+    font-size: 64px;
+    font-weight: 800;
+    color: #222222;
+    line-height: 1.1;
+    margin: 0 0 24px 0;
+}
+
+.CTA p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.5;
+    margin: 0 0 32px 0;
 }
