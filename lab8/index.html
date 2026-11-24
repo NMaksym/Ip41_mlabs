@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="World Trivia - test your knowledge with interesting quizzes.">
+    <title>World Trivia</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav aria-label="Main navigation">
+            <div class="logo">World Trivia</div>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#scores">Scores</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h1>Welcome to World Trivia!</h1>
+            <p>
+                Test your knowledge, discover interesting facts
+                and challenge yourself with exciting trivia questions.
+                Explore different categories, compete with other players
+                and become a trivia champion!
+            </p>
+        </section>
+
+        <section id="trivia">
+            <h2>Latest Trivia</h2>
+
+            <div class="trivia-container">
+
+                <article class="trivia-card">
+                    <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400"
+                        alt="Space and stars">
+                    <div>
+                        <h3>Space Facts</h3>
+                        <p>Discover fascinating facts about planets, stars and the universe.</p>
+                    </div>
+                </article>
+
+                <article class="trivia-card">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400"
+                        alt="Mountain landscape">
+                    <div>
+                        <h3>Nature Trivia</h3>
+                        <p>Learn more about the natural world and its amazing mysteries.</p>
+                    </div>
+                </article>
+
+                <article class="trivia-card">
+                    <img src="https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=400"
+                        alt="Historical architecture">
+                    <div>
+                        <h3>History Quiz</h3>
+                        <p>Explore important events and interesting moments from history.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="categories">
+            <h2>Trivia Categories</h2>
+
+            <ul class="categories-list">
+                <li><a href="#trivia">Science</a></li>
+                <li><a href="#trivia">History</a></li>
+                <li><a href="#trivia">Geography</a></li>
+                <li><a href="#trivia">Technology</a></li>
+                <li><a href="#trivia">Sports</a></li>
+                <li><a href="#trivia">Entertainment</a></li>
+            </ul>
+        </section>
+
+        <section id="scores">
+            <h2>Top Scores</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th>Score</th>
+                            <th>Country</th>
+                            <th>Category</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Alex</td>
+                            <td>980</td>
+                            <td>Ukraine</td>
+                            <td>Science</td>
+                            <td>20.11.2026</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Sarah</td>
+                            <td>920</td>
+                            <td>Germany</td>
+                            <td>History</td>
+                            <td>19.11.2026</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Max</td>
+                            <td>890</td>
+                            <td>Poland</td>
+                            <td>Geography</td>
+                            <td>18.11.2026</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>Emma</td>
+                            <td>850</td>
+                            <td>France</td>
+                            <td>Technology</td>
+                            <td>17.11.2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="subscribe">
+            <h2>Puzzle of the Day</h2>
+            <p>Get a new interesting puzzle every day. Challenge your mind!</p>
+
+            <button class="subscribe-button" type="button">
+                Subscribe Now
+            </button>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or suggestions? Send us a message!</p>
+
+            <form class="contact-form" action="#" method="post">
+
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 World Trivia. All rights reserved.</p>
+        <p>Explore. Learn. Challenge Yourself.</p>
+    </footer>
+
+</body>
+</html>
